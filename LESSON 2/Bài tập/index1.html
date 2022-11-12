@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập 1</title>
+  </head>
+  <body>
+    <script>
+      // Bài 1
+      const arr1 = [1, 2, 3, 4, 5, 6];
+      const arr2 = [1, 6, 8, 9, 0];
+      const arrFiltered = arr1.filter((item) => {
+        if (arr2.includes(item)) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+      console.log(arrFiltered);
+
+      //   Bài 2
+      const arr = [1, 54, 6, 7];
+      const newArr = arr.map((i) => i + 5);
+      console.log(newArr);
+
+      //   Bài 3
+      const m = [1, 2, 4, 5, 6, 7];
+      const n = [3, 5, 675, 8, 96];
+      const p = m.filter((item) => {
+        if ([1,8,10,96,7].includes(item)) {
+            return false;
+        } else {
+            return true;
+        }
+      });
+      console.log(p);
+      const q = n.filter((item) => {
+        if ([1,8,10,96,7].includes(item)) {
+            return false;
+        } else {
+            return true;
+        }
+      });
+      console.log(q);
+
+      //   Bài 4
+    </script>
+  </body>
+</html>
