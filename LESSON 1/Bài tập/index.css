@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: Alumni Sans Pinstripe, sans-serif;
+    font-size: 30px;
+    font-weight: 3000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(88, 88, 165);
+}
+
+.card {
+    padding: 50px;
+    background-color: rgba(245, 231, 163, 0.918);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+h1 , h2 {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    margin-left: 10px;
+}
