@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.khung-trang-web {
+  display: flex;
+}
+
+.ds-san-pham {
+  width: 80%;
+  padding: 10px;
+}
+
+.gio-hang {
+  width: 20%;
+}
+
+.danh-sach {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.san-pham {
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Gọi là CSS Selector */
+/* Chọn tất cả thẻ img bên trong class san-pham */
+.san-pham img {
+  width: 100%;
+  /* height: 200px;
+  object-fit: cover; */
+}
+
+.san-pham .ten-san-pham {
+  margin-top: 10px;
+}
+
+.san-pham .danh-gia {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.san-pham .mua {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.san-pham .mua button {
+  cursor: pointer;
+}
