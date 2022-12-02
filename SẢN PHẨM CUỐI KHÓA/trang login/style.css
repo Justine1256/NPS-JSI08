@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  background-color: blanchedalmond;
+}
+
+/* Viết style cho desktop trước (desktop-first) */
+#login-form {
+    width: 50%;
+    /* height: 100vh; */
+    margin: auto 0px;
+    padding: 50px;
+}
+
+h1 {
+    margin: 0px 0px 20px 0px;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+  margin: 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#login-input {
+    margin-top: 20px;
+    background-color: burlywood;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+#left-img {
+    width: 50%;
+    height: 100vh;
+    background-color: chocolate;
+}
+
+/* Mọi thứ được style trong đây sẽ chỉ áp dụng cho màn hình có width tối đa là 1200px */
+@media screen and (max-width: 1200px) {
+}
+
+/* Mọi thứ được style trong đây sẽ chỉ áp dụng cho màn hình có width tối đa là 992px (tablet nằm ngang) */
+@media screen and (max-width: 992px) {
+    form {
+        width: 75%;
+    }
+}
+
+/* Mọi thứ được style trong đây sẽ chỉ áp dụng cho màn hình có width tối đa là 768px (tablet nằm dọc) */
+@media screen and (max-width: 768px) {
+}
+
+/* Mọi thứ được style trong đây sẽ chỉ áp dụng cho màn hình có width tối đa là 480px (smartphone) */
+@media screen and (max-width: 480px) {
+    form {
+        width: 100%;
+    }
+}
